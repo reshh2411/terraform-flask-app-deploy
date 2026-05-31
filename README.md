@@ -67,7 +67,3 @@ terraform apply
 - If the S3 backend is not available yet, you can temporarily remove or comment out the `terraform { backend "s3" { ... } }` block in `backend.tf` and use local state for initial testing.
 - `app.py` is a simple Flask example and is not currently deployed by Terraform.
 - Adjust AWS region and resource names as needed for your environment.
-
-## License
-
-This repository is provided as-is and may be used freely for learning and testing.
